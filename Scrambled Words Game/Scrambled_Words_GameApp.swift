@@ -11,7 +11,7 @@ import SwiftUI
 struct Scrambled_Words_GameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(current: 0)
         }
     }
 }
